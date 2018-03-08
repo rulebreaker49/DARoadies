@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.rulebreaker.daroadies.SecondaryPage"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/margins"
+        android:layout_marginBottom="@dimen/margins"
+        android:paddingBottom="@dimen/bannerSize"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="For now we are only available at NIT Jalandhar !!"
+                android:textAlignment="center"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_margin="@dimen/margins"
+                android:textColor="#ec0101"
+                />
+            <android.support.v7.widget.CardView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_margin="@dimen/margins"
+                app:cardCornerRadius="@dimen/cardviewcornerradius"
+                android:elevation="@dimen/cardviewelevation">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="@dimen/margins">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:textSize="18dp"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:layout_height="wrap_content"
+                            android:text="Estimated Km: "/>
+                        <EditText
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:id="@+id/km"
+                            android:textSize="16dp"
+                            android:hint="Distance in Kilometers"
+                            android:inputType="number"
+                            android:foregroundTint="@color/colorPrimaryDark"
+                            android:backgroundTint="@color/colorPrimaryDark"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="@dimen/margins">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:textSize="18dp"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="Estimated Hrs: "/>
+                        <EditText
+                            android:layout_width="0dp"
+                            android:textSize="16dp"
+                            android:hint="Time in Hours"
+                            android:foregroundTint="@color/colorPrimaryDark"
+                            android:backgroundTint="@color/colorPrimaryDark"
+                            android:layout_weight="1"
+                            android:inputType="number"
+                            android:id="@+id/hours"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                   <Button
+                       android:layout_width="match_parent"
+                       android:background="@color/colorPrimaryDark"
+                       android:textColor="@color/colorAccent"
+                       android:layout_height="wrap_content"
+                       android:id="@+id/price"
+                       android:text="Estimated Rent"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margins"
+                android:layout_marginRight="@dimen/margins"
+                android:layout_marginBottom="@dimen/margins"
+                android:elevation="@dimen/cardview_default_elevation"
+                app:cardCornerRadius="@dimen/cardviewcornerradius"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Enter Your Details"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18dp"
+                        android:layout_margin="@dimen/margins"
+                        android:textStyle="bold"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margins"
+                        android:layout_marginRight="@dimen/margins"
+                        android:layout_marginBottom="@dimen/margins"
+                        android:inputType="text"
+                        android:backgroundTint="@color/colorPrimaryDark"
+                        android:hint="Name"
+                        android:id="@+id/customerName"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:backgroundTint="@color/colorPrimaryDark"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margins"
+                        android:layout_marginRight="@dimen/margins"
+                        android:layout_marginBottom="@dimen/margins"
+                        android:hint="Contact Number"
+                        android:inputType="phone"
+                        android:id="@+id/contactNumber"
+                        />
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Do you have a Driving Licence?"
+                        android:layout_marginLeft="@dimen/margins"
+                        android:layout_marginRight="@dimen/margins"
+                        android:layout_marginBottom="@dimen/margins"
+                        android:id="@+id/licence"
+                        android:buttonTint="@color/colorPrimaryDark"
+
+                        />
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorPrimaryDark"
+                        android:text="Do you agree to our Privacy Policy?"
+                        android:layout_marginLeft="@dimen/margins"
+                        android:layout_marginRight="@dimen/margins"
+                        android:layout_marginBottom="@dimen/margins"
+                        android:id="@+id/policy"
+                        />
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/colorPrimaryDark"
+                        android:textColor="@color/colorAccent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rentButton"
+                        android:text="Rent a Ride"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

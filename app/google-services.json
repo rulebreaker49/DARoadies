@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "586141470284",
+    "firebase_url": "https://daroadies-94525.firebaseio.com",
+    "project_id": "daroadies-94525",
+    "storage_bucket": "daroadies-94525.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586141470284:android:378410fb61c19e82",
+        "android_client_info": {
+          "package_name": "com.example.rulebreaker.daroadies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586141470284-djltjj74n70d9l15eepddp8rp1ihf4ob.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rulebreaker.daroadies",
+            "certificate_hash": "1f33d55bf50fea72c40b144b89c9554a7c876a14"
+          }
+        },
+        {
+          "client_id": "586141470284-u77qbvdfntkcan11k44vfe05s1t4e5n7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfrpG_uHV3JDVXahHGdUJo9jVIH4lV44A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586141470284-u77qbvdfntkcan11k44vfe05s1t4e5n7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

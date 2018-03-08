@@ -1,0 +1,26 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="headSpace">80dip</dimen>
+    <dimen name="headingSize">50dip</dimen>
+    <dimen name="margins">15dip</dimen>
+    <dimen name="cardviewelevation">5dip</dimen>
+    <dimen name="cardviewcornerradius">5dip</dimen>
+    <dimen name="imageviewHeight">200dp</dimen>
+    <dimen name="movietitletextsize">15dip</dimen>
+    <dimen name="movietextviewtopspace">120dip</dimen>
+    <dimen name="textviewMovieTileTopMargin">150dip</dimen>
+    <dimen name="moviePosterMargin">60dip</dimen>
+    <dimen name="movieDetailMarginTop">120dip</dimen>
+    <dimen name="movieDetailMarginLeftRight">25dip</dimen>
+    <dimen name="movieDetailTitleSize">16dip</dimen>
+    <dimen name="bannerSize">35dip</dimen>
+    <dimen name="headTextSize">20dp</dimen>
+    <dimen name="bottomProgress">80dp</dimen>
+    <dimen name="topLogo">30dp</dimen>
+    <dimen name="headingPrivacyPolicy">20dp</dimen>
+    <dimen name="textPrivacyPolicy">18dp</dimen>
+
+</resources>

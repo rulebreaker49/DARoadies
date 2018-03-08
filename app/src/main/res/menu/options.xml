@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:bcmc="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/policyPage"
+        android:title="Privacy Policy"
+        android:icon="@mipmap/ic_launcher"
+        bcmc:showAsAction="never"/>
+    <item
+        android:id="@+id/aboutUs"
+        android:title="About Us"
+        android:icon="@mipmap/ic_launcher"
+        bcmc:showAsAction="never"/>
+    <item
+        android:id="@+id/feedback"
+        android:title="Send Feedback"
+        android:icon="@mipmap/ic_launcher"
+        bcmc:showAsAction="never"/>
+</menu>
